@@ -88,6 +88,14 @@
     display: none;
   }
 
+  .div-two {
+    order: 1;
+  }
+
+  .div-five {
+    order: 3;
+  }
+
   .div-with-subtitle, .text-box {
     box-sizing: border-box;
     width: 40%; 
