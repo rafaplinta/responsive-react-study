@@ -1,0 +1,134 @@
+@media screen and (max-width: 767px) {
+  .box-section, .text-section {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .line {
+    width: 300px;
+    color: black;
+  }
+
+  .div-one,
+  .div-two,
+  .div-three,
+  .div-four,
+  .div-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 80px
+  }
+  
+  .div-with-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 196, 196);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .text-box {
+    align-items: center;
+    margin-top: 5px;
+    margin: 20px;
+    width: 300px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .box-section, .text-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%; 
+    max-height: 100%;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  .text-section {
+    margin-bottom: 15px;
+  }
+
+  
+  .line {
+    width: 79%;
+    background-color: black;
+  }
+  
+  .div-one,
+  .div-two,
+  .div-three,
+  .div-five {
+    box-sizing: border-box;
+    width: 40%; 
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    padding: 15%;
+    height: 40%
+  }
+
+  .div-four {
+    display: none;
+  }
+
+  .div-with-subtitle, .text-box {
+    box-sizing: border-box;
+    width: 40%; 
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    height: 50%;
+  }
+
+  .text-box {
+    font-size: 15px;
+    padding: 0;
+  }
+}
+
+.div-one {
+  background-color: rgb(196, 196, 196);
+}
+
+.div-two {
+  background-color: rgb(236, 8, 9);
+}
+
+.div-three {
+  background-color: rgb(5, 122, 228);
+}
+
+.div-four {
+  background-color: rgb(33, 163, 1);
+}
+
+.div-five {
+  background-color: rgb(237, 142, 0);
+}
+
+.div-with-subtitle {
+  background-color: rgb(196, 196, 196);
+}
+
+.text {
+  text-align: justify;
+}
